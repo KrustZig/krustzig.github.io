@@ -112,7 +112,7 @@ p {
 
 
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:600px){
 	nav ul{
 		max-height:0;
 		
@@ -139,17 +139,17 @@ p {
 	vertical-align: middle;
   }
 
- @media (max-width:800px){
+ @media (max-width:400px){
  	.column {
  		flex:50%;
  		max-width: 50%;
  	}
  }
 
- @media(max-width:600px){
+ @media(max-width:400px){
  	.column {
- 		flex:100%;
- 		max-width:100%;
+ 		flex:50%;
+ 		max-width:50%;
  	}
 }
 
