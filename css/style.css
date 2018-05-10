@@ -112,15 +112,13 @@ p {
 
 
 }
-@media screen and (max-width:580px){
+@media screen and (max-width:400px){
 	nav ul{
 		max-height:0;
 		
 	}
 	.showing{
 		max-height:20em;
-
-
 	}
 	nav ul li{
 		box-sizing:border-box;
