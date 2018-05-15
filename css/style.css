@@ -6,19 +6,21 @@
 	text-decoration: none;
 	box-sizing: border-box;
 }
+
 body {
 	background-color: white;
 	margin:0;
 	padding:0;
 	margin:center;
 }
+
 iframe{
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 4px;
 	width: 70%;
-   
 }
+
 header{
  background:#00795f;
  width:100%;
@@ -26,16 +28,20 @@ header{
  color:white;
  text-align:center;
 }
+
 a{
 text-decoration:none;
 color:inherit;
 }
+
 a:visited {
 	color:black;
 }
+
 a:active{
 	color:#EFE9E2;	
 }
+
 nav ul{
 	background-color:white;
 	overflow:hidden;
@@ -48,27 +54,33 @@ nav ul{
     -moz-transition:max-height 0.4s;
     -o-transition:max-height 0.4s;
     transition:max-height 0.4s;
-
 }
-nav ul li{
+
+nav ul li {
 	display: inline-block;
     padding:5px;
 }
-nav ul li:hover{
-	background-color:#CF9D00;
 
+nav ul li:hover {
+	background-color:#CF9D00;
 }
-section{
+
+section {
 	 line-height:1.5em;
 	 font-size:0.9em;
 	 width:100%;
 	 margin:0 auto;
 }
-h1 {
+
+#header {
 	margin-top: 50px;
 	padding: 10px;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+#main_image {
+	margin-top: 30px;
 }
 
 p {
@@ -77,7 +89,8 @@ p {
 	margin-bottom: 50px;
 	text-align: left;
   }
-  h2{
+
+h2 {
   	display: flex;
 	flex-wrap: wrap;
 	padding: 10px;
@@ -101,7 +114,7 @@ p {
 	vertical-align: top;
 }
 
-.handle{
+.handle {
 	width:100%;
 	background:grey;
 	text-align:left;
@@ -112,25 +125,25 @@ p {
 
 
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 	iframe nav ul{
 		max-height:0;
 		
 	}
-	.showing{
+	.showing {
 		max-height:20em;
 	}
-	nav ul li{
+	nav ul li {
 		box-sizing:border-box;
 		width:100%;
 		padding:15px;
 		text-align:left;
 
 		}
-		.handle{
+		.handle {
 			display:block;
 		}
-		.click-to-toggle{
+		.click-to-toggle {
 			cursor:pointer;
 		}
 
@@ -139,22 +152,16 @@ p {
 	vertical-align: middle;
   }
 
- @media (max-width:400px){
+ @media (max-width:400px) {
  	iframe .column {
  		flex:50%;
  		max-width: 50%;
  	}
  }
 
- @media(max-width:400px){
+ @media(max-width:400px) {
  	iframe .column {
  		flex:50%;
  		max-width:50%;
  	}
 }
-
-
-
-
-
-
