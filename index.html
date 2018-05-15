@@ -4,9 +4,10 @@
 	<title>Scavenger Crafts</title>
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<h1><img src="images/scavenge.png" height="200" width="200"/></h1>
+	<div id="header"><img src="images/scavenge.png" height="200" width="200"/></div>
 		<nav> 
 			<ul>
 				<li><a href="home.html">HOME</a></li>
@@ -17,7 +18,7 @@
 			<div class="handle">MENU</div>
 		</nav>
 
-		<div>
+		<div id="main_image">
 			<img src="images/raccoonjaw1.png" width="70%" />
 		</div>
 
@@ -56,10 +57,10 @@
   			</div> 
 		</div>
 		<script>
-  $('.handle').on('click', function(){
-    $('nav ul').toggleClass('showing');
-  });
-</script>
+		  $('.handle').on('click', function(){
+		    $('nav ul').toggleClass('showing');
+		  });
+		</script>
 
 </body>
 </html>
